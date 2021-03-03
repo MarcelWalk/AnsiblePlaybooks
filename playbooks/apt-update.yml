@@ -3,6 +3,6 @@
   become_user: mwalk
   tasks:
     - name: Update
-      raw: apt update
+      raw: sudo apt update
     - name: Upgrade      
-      raw: apt upgrade
+      raw: sudo apt upgrade
