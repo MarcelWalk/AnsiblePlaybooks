@@ -3,8 +3,6 @@
   become_user: mwalk
   tasks:
     - name: Update
-      apt:
-        update_cache: yes
+      raw: apt update
     - name: Upgrade      
-      apt:
-        upgrade: 'yes'
+      raw: apt upgrade
