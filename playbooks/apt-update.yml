@@ -5,4 +5,4 @@
     - name: Update
       raw: sudo apt update
     - name: Upgrade      
-      raw: sudo apt upgrade
+      raw: sudo apt upgrade -y
